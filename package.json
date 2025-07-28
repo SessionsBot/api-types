@@ -1,0 +1,28 @@
+{
+  "name": "@sessionsbot/api-types",
+  "version": "1.1.31",
+  "description": "This package hosts shared internal **TypeScript types and interfaces** used across our backend/frontend API services. It helps keep types in sync and up to date across multiple related repositories (like bots, dashboards, and clients).",
+  "main": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SessionsBot/api-types.git"
+  },
+  "author": "@SessionsBot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SessionsBot/api-types/issues"
+  },
+  "homepage": "https://github.com/SessionsBot/api-types#readme",
+  "devDependencies": {
+    "conventional-changelog-cli": "^5.0.0",
+    "typescript": "^5.8.3"
+  }
+}
