@@ -9,6 +9,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
+    "changelog": "npx conventional-changelog -i CHANGELOG.md -s -r 0 --config ./changelog.config.js",
     "prepublishOnly": "npm run build"
   },
   "repository": {
