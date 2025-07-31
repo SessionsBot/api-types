@@ -12,6 +12,8 @@ export interface FirebaseGuildDoc {
     timeZone?:                            string;
     /** Indication whether guild has successfully completed setup process. */
     setupCompleted?:                      boolean;
+    /** Key/Value pairs of upcoming sessions ids and their according data. */
+    upcomingSessions?:                    { [key: string]: UpcomingSession };
 }
 
 export interface SessionSignup {
@@ -32,6 +34,28 @@ export interface SessionSchedule {
     sessionUrl?:       string;
     /** Roles of session. */
     roles?:            SessionRole[];
+}
+
+export interface UpcomingSession {
+    /** Date of session. */
+    date?:             UpcomingSessionDate;
+    /** Roles of session. */
+    roles?:            SessionRole[];
+    /** Title of session. */
+    title?:            string;
+    /** Location of session. */
+    location?:         string;
+    /** Message Id of *Signup Panel* for session. */
+    signupPanelMsgId?: string;
+}
+
+export interface UpcomingSessionDate {
+    /** Hour time of session. */
+    hours?:            number;
+    /** Minute time of session. */
+    minutes?:          number;
+    /** Discord timestamp of session. */
+    discordTimestamp?: string;
 }
 
 export interface SessionRole {
