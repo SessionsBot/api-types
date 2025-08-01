@@ -30,7 +30,7 @@
   },
   "github": {
     "release": true,
-    "releaseName": "${version}",
+    "releaseName": "v${version}",
     "comments": {
       "submit": false,
       "issue": ":rocket: _This issue has been resolved in v${version}. See [${releaseName}](${releaseUrl}) for release notes._",
