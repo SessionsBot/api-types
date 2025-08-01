@@ -67,6 +67,8 @@ export interface SessionRole {
     roleEmoji?:       string;
     /** Capacity of session role. */
     roleCapacity?:    number;
+    /** Users currently assigned role */
+    users?:    string[];
 }
 
 export interface SessionSignupDailySignupPostTime {
