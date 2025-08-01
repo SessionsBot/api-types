@@ -14,7 +14,7 @@
 * re-adding auto changelog ([8aa3950](https://github.com/SessionsBot/api-types/commit/8aa39504416295e595f7ca6d02c374583085500c))
 * switched auto changelog template ([bf5ec20](https://github.com/SessionsBot/api-types/commit/bf5ec2002ef8dc75259b2c6c3d85d223ba351e48))
 
-## 1.0.0 (2025-07-29)
+## [1.0.0](https://github.com/SessionsBot/api-types/releases/tag/1.0.0) (2025-07-29)
 
 * fix: added CHANGELOG.md ([e396232](https://github.com/SessionsBot/api-types/commit/e396232))
 * docs: Initial versioning ([5fdb453](https://github.com/SessionsBot/api-types/commit/5fdb453))
