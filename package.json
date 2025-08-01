@@ -25,9 +25,7 @@
   "homepage": "https://github.com/SessionsBot/api-types#readme",
   "devDependencies": {
     "release-it": "^19.0.4",
-    "typescript": "^5.8.3"
-  },
-  "dependencies": {
+    "typescript": "^5.8.3",
     "@release-it/conventional-changelog": "^10.0.1"
   }
 }
