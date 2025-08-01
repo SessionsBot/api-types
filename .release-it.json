@@ -1,5 +1,8 @@
 {
   "$schema": "https://unpkg.com/release-it/schema/release-it.json",
+  "hooks": {
+    "before:init": "npm run build"
+  },
   "plugins": {
     "@release-it/conventional-changelog": {
       "preset": {
