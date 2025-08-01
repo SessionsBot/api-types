@@ -1,11 +1,21 @@
 {
   "$schema": "https://unpkg.com/release-it/schema/release-it.json",
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": "angular",
+      "infile": "CHANGELOG.md"
+    }
+  },
   "git": {
+    "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
     "requireCleanWorkingDir": true,
     "tagAnnotation": "Release ${version}",
     "push": true
   },
   "github": {
     "release": true
+  },
+  "npm": {
+    "publish": true
   }
 }
