@@ -51,7 +51,7 @@ export interface GuildGeneralData {
     embed_channel_id?:               unknown;
 }
 
-
+/** @info Internal Type from `DISCORD API` */
 export interface Role {
     id?:            string;
     name?:          string;
@@ -69,12 +69,13 @@ export interface Role {
     tags?:          unknown;
 }
 
-
+/** @info Internal Type from `DISCORD API` */
 export interface Colors {
     primary_color?:   number;
     secondary_color?: unknown;
     tertiary_color?:  unknown;
 }
+
 
 
 /** Information provided from Discord's *Guild Channels* API.
@@ -102,10 +103,12 @@ export interface GuildChannelData {
     voice_background_display?: null;
 }
 
+/** @info Internal Type from `DISCORD API` */
 export interface IconEmoji {
     id?:   null;
     name?: string;
 }
+/** @info Internal Type from `DISCORD API` */
 export interface PermissionOverwrite {
     id?:    string;
     type?:  number;

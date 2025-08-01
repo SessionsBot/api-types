@@ -16,15 +16,30 @@ export interface FirebaseGuildDoc {
     upcomingSessions?:                    { [key: string]: UpcomingSession };
 }
 
+/** Session Signup related data saved for Guild.
+ * 
+ * Includes:
+ * - `panelChannelId` : Signup channel by ID
+ * - `dailySignupPostTime` : Daily signup post time
+ * - `mentionRoleIds` : Roles mention on new panels
+ */
 export interface SessionSignup {
     /** Guild text channel id used for posting new signup panels. */
     panelChannelId?:      string;
     /** Daily time chosen for signup panels to be posted. */
-    dailySignupPostTime?: SessionSignupDailySignupPostTime;
+    dailySignupPostTime?: DailySignupPostTime;
     /** Array of guild role ids to mention on new signup panel post. */
     mentionRoleIds?:      string[];
 }
 
+/** A Session Schedule currently used within a guild. 
+ * 
+ * Includes:
+ * - `sessionTitle` : Title of session
+ * - `sessionDateDaily` : Date of session
+ * - `sessionUrl` : Location of session
+ * - `roles` : Roles of session
+ */
 export interface SessionSchedule {
     /** Title of session. */
     sessionTitle?:     string;
@@ -36,6 +51,15 @@ export interface SessionSchedule {
     roles?:            SessionRole[];
 }
 
+/** A Session Schedule currently used within a guild. 
+ * 
+ * Includes:
+ * - `title` : Title of session
+ * - `date` : Date of session
+ * - `location` : Location of session
+ * - `roles` : Roles of session
+ * - `signupPanelMsgId` : Msg ID of *Signup Panel* for session
+ */
 export interface UpcomingSession {
     /** Date of session. */
     date?:             UpcomingSessionDate;
@@ -49,6 +73,13 @@ export interface UpcomingSession {
     signupPanelMsgId?: string;
 }
 
+/** Upcoming Session Date Information
+ * 
+ * Includes:
+ * - `hours` : Hour time of session
+ * - `minutes` : Minute time of session
+ * - `discordTimestamp` : Discord timestamp of session
+ */
 export interface UpcomingSessionDate {
     /** Hour time of session. */
     hours?:            number;
@@ -58,6 +89,7 @@ export interface UpcomingSessionDate {
     discordTimestamp?: string;
 }
 
+/** Data for `Session Role` */
 export interface SessionRole {
     /** Name of session role. */
     roleName?:        string;
@@ -71,7 +103,13 @@ export interface SessionRole {
     users?:    string[];
 }
 
-export interface SessionSignupDailySignupPostTime {
+/** `DailySignupPostTime` Date Information:
+ * 
+ * Includes:
+ * - `hours` : Hour of day
+ * - `minutes` : Minute of hour
+ */
+export interface DailySignupPostTime {
     hours?:   number;
     minutes?: number;
 }
