@@ -2,7 +2,9 @@
   "$schema": "https://unpkg.com/release-it/schema/release-it.json",
   "plugins": {
     "@release-it/conventional-changelog": {
-      "preset": "angular",
+      "preset": {
+      "name": "conventionalcommits"
+    },
       "infile": "CHANGELOG.md",
       "ignoreRecommendedBump": true
     }
