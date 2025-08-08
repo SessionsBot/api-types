@@ -24,8 +24,13 @@ export interface FirebaseGuildDoc {
  * - `mentionRoleIds` : Roles mention on new panels
  */
 export interface SessionSignup {
-    /** Guild text channel id used for posting new signup panels. */
+    /** Guild text channel id used for posting new signup panels/thread. */
     panelChannelId?:      string;
+    /** Dual Purpose:
+     * - Most recent signup thread id and 
+     * - Most recent signup msg id sent to guild's signup channel
+    */
+    signupThreadId?:      string;
     /** Daily time chosen for signup panels to be posted. */
     dailySignupPostTime?: DailySignupPostTime;
     /** Array of guild role ids to mention on new signup panel post. */
