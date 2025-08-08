@@ -3,9 +3,9 @@ import { GuildChannelData, GuildGeneralData } from "./discordApi.types"
 import { FirebaseGuildDoc } from "./firestoreData.types";
 
 
-/** The full interface response for internal backend API. */
+/** The full response interface for internal backend API requests. */
 export interface APIResponse<responseData> {
-    /** Whether the API request was successful. */
+    /** Whether the API request was successful, or not. */
     success: boolean;
 
     /** The API response data, if any. */
@@ -17,7 +17,7 @@ export interface APIResponse<responseData> {
 
 /** The Error Response Object for applicable API endpoint. */
 export interface APIErrorData {
-    /** Error response code */
+    /** Error response code - HttpStatusCode */
     code: number
 
     /** Error details/message, if any */
