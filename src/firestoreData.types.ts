@@ -49,6 +49,8 @@ export interface SessionSchedule {
     sessionUrl?:       string;
     /** Roles of session. */
     roles?:            SessionRole[];
+    /** Unique id to identify a particular schedule. */
+    scheduleId?:            string;
 }
 
 /** A Session Schedule currently used within a guild. 
