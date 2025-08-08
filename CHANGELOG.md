@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.1.2](https://github.com/SessionsBot/api-types/compare/v2.1.1...v2.1.2) (2025-08-08)
+
+### ⚡️ Features
+
+* added new `scheduleId` property to `SessionSchedule` interface ([2e79794](https://github.com/SessionsBot/api-types/commit/2e7979473d8c89fdd21c7cc8d8b23917e3acad52))
+
+### 🐞 Bug Fixes
+
+* add 'v' before default `releaseName` ([6568cfe](https://github.com/SessionsBot/api-types/commit/6568cfe25081f5072d2c78c57778dc3c43a3d71c))
+* added missing `signupThreadId` within `SessionSignup` interface ([0ba2c70](https://github.com/SessionsBot/api-types/commit/0ba2c70c3d580e63264722be68cc9388d7f5b39a))
+* JSDoc improvements ([25d3fee](https://github.com/SessionsBot/api-types/commit/25d3fee3a90e2a6eebbc2457fc3561fe56c61134))
+
+### 🧹 Chores
+
+* remove `.vscode/` ([2c85389](https://github.com/SessionsBot/api-types/commit/2c853897e020a495f677ec684e0ded1dcb6d92ff))
+
 ## [2.1.1](https://github.com/SessionsBot/api-types/compare/v2.1.0...v2.1.1) (2025-08-01)
 
 ### 🐞 Bug Fixes
