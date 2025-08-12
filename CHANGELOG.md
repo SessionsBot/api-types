@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.3](https://github.com/SessionsBot/api-types/compare/v2.1.2...v2.1.3) (2025-08-12)
+
+### ⚡️ Features
+
+* add `DecodedUserData` type ([c5f003f](https://github.com/SessionsBot/api-types/commit/c5f003f8d24a6c75433f32b1ef79c47774e59669))
+
 ## [2.1.2](https://github.com/SessionsBot/api-types/compare/v2.1.1...v2.1.2) (2025-08-08)
 
 ### ⚡️ Features
