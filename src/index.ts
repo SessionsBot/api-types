@@ -2,3 +2,4 @@
 export * from './backendApi.types'
 export * from './discordApi.types'
 export * from './firestoreData.types'
+export * from './decodedUser.types'
