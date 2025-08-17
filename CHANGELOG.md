@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.6](https://github.com/SessionsBot/api-types/compare/v2.1.5...v2.1.6) (2025-08-17)
+
+### 🐞 Bug Fixes
+
+* remove main entirely ([e426297](https://github.com/SessionsBot/api-types/commit/e42629768d7098d9b5d48e767ebfa032f4a2992b))
+
 ## [2.1.5](https://github.com/SessionsBot/api-types/compare/v2.1.4...v2.1.5) (2025-08-17)
 
 ### 🐞 Bug Fixes
