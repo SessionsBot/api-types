@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.5](https://github.com/SessionsBot/api-types/compare/v2.1.4...v2.1.5) (2025-08-17)
+
+### 🐞 Bug Fixes
+
+* packaging/bundle type files ([f751bbc](https://github.com/SessionsBot/api-types/commit/f751bbc1f6b144152edfbfa53469c1c42d896287))
+
 ## [2.1.4](https://github.com/SessionsBot/api-types/compare/v2.1.3...v2.1.4) (2025-08-17)
 
 ### 🐞 Bug Fixes
