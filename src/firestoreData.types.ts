@@ -49,7 +49,7 @@ export interface SessionSchedule {
     /** Title of session. */
     sessionTitle?:     string;
     /** Date of session. */
-    sessionDateDaily?: Date;
+    sessionDateDaily?: DailySignupPostTime;
     /** Location of session. */
     sessionUrl?:       string;
     /** Roles of session. */
