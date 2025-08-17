@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.7](https://github.com/SessionsBot/api-types/compare/v2.1.6...v2.1.7) (2025-08-17)
+
+### 🐞 Bug Fixes
+
+* add main empty export ([abf218f](https://github.com/SessionsBot/api-types/commit/abf218f15e0bfc8d477ed4b75cbd6929877b717c))
+* add strict ([56126af](https://github.com/SessionsBot/api-types/commit/56126af01c0b24cc33541bcf73ff172739a13dfb))
+
 ## [2.1.6](https://github.com/SessionsBot/api-types/compare/v2.1.5...v2.1.6) (2025-08-17)
 
 ### 🐞 Bug Fixes
