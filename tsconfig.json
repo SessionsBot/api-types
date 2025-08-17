@@ -9,6 +9,7 @@
     "moduleResolution": "Node",
     "target": "ESNext",
     "esModuleInterop": true,
+    "strict": true,
   },
   "include": ["src"]
 }
