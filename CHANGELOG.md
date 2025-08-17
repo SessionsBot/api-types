@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.1.4](https://github.com/SessionsBot/api-types/compare/v2.1.3...v2.1.4) (2025-08-17)
+
+### 🐞 Bug Fixes
+
+* release naming ([99c3daa](https://github.com/SessionsBot/api-types/commit/99c3daa33a462a91dd8346d0500cb25592c01ae0))
+* release pipeline ([9ced70c](https://github.com/SessionsBot/api-types/commit/9ced70c06556b1192039826e167a822198092656))
+* schedule date type ([411ae8e](https://github.com/SessionsBot/api-types/commit/411ae8e0334a7aed47f5169d58327cfab8112307))
+
+### 🎨 Styling
+
+* remove trailing : ([dde8edc](https://github.com/SessionsBot/api-types/commit/dde8edce9474c08b8e114ee717a34318b17a11f1))
+
 ## [2.1.3](https://github.com/SessionsBot/api-types/compare/v2.1.2...v2.1.3) (2025-08-12)
 
 ### ⚡️ Features
