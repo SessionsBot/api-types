@@ -6,7 +6,7 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "main": "dist/index.js",
+  "main": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "changelog": "npx conventional-changelog -i CHANGELOG.md -s -r 0 --config ./changelog.config.js",
