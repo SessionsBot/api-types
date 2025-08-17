@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.1.8](https://github.com/SessionsBot/api-types/compare/v2.1.7...v2.1.8) (2025-08-17)
+
+### 🐞 Bug Fixes
+
+* switch main export to type file ([23dbb48](https://github.com/SessionsBot/api-types/commit/23dbb487d8b288e49e23e0d14fcbf46f3f5032be))
+
 ## [2.1.7](https://github.com/SessionsBot/api-types/compare/v2.1.6...v2.1.7) (2025-08-17)
 
 ### 🐞 Bug Fixes
