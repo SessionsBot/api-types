@@ -1,5 +1,5 @@
-// Main entry point for all internal API exported types:
-export * from './backendApi.types'
-export * from './discordApi.types'
-export * from './firestoreData.types'
-export * from './decodedUser.types'
+// src/index.ts
+export * from "./backendApi";
+export * from "./discordApi";
+export * from "./firestoreData";
+export * from "./decodedUser";

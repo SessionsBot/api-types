@@ -1,6 +1,6 @@
 // Imported Types:
-import { GuildChannelData, GuildGeneralData } from "./discordApi.types"
-import { FirebaseGuildDoc } from "./firestoreData.types";
+import { GuildChannelData, GuildGeneralData } from "./discordApi"
+import { FirebaseGuildDoc } from "./firestoreData";
 
 
 /** The full response interface for internal backend API requests. */
