@@ -1,0 +1,26 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/" 
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "04:30"              
+      timezone: "America/Chicago" 
+    open-pull-requests-limit: 15  
+    rebase-strategy: "auto"      
+    commit-message:
+      prefix: "chore"
+      include: "scope"            
+    labels:
+      - "Needs Review"
+    allow:
+      - dependency-type: "all"  
+    groups:
+      npm-dependencies:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+          - "major"
