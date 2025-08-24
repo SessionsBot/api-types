@@ -1,8 +1,8 @@
 /** ### Decoded _`auth.userData`_ object for authenticated user:
  * Accessible within frontend using `auth`(Pinia Store) > `userData`(state)
 */
-export interface DecodedUserData {
-    Pinia:    Pinia;
+export interface FullUserData {
+    Pinia:    DecodedUserData;
     Firebase: Firebase;
 }
 
@@ -46,14 +46,14 @@ export interface FirebaseClass {
     sign_in_provider: string;
 }
 
-/** #### Internal "Pinia" data object for authenticated users claims.
+/** #### Internal "Pinia"/Decoded JWT data object for authenticated users claims.
  * 
  * _Contains __most relevant__ user data in most cases, such as:_
  *     - `id`: User's id, from Discord
  *     - `username`: Display name, from Discord
  *     - `guilds`: All & manageable user's guilds from Discord
 */
-export interface Pinia {
+export interface DecodedUserData {
     id:          string;
     username:    string;
     displayName: string;
