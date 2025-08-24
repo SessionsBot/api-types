@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.9](https://github.com/SessionsBot/api-types/compare/v2.1.8...v2.1.9) (2025-08-24)
+
+### 🐞 Bug Fixes
+
+* auth user type names ([fe970d1](https://github.com/SessionsBot/api-types/commit/fe970d180e9bf1e74559bba4c3c89605d623b296))
+* dependabot config ([ff9f472](https://github.com/SessionsBot/api-types/commit/ff9f4722bf802918f48ac171bb76c28b05f023ee))
+
 ## [2.1.8](https://github.com/SessionsBot/api-types/compare/v2.1.7...v2.1.8) (2025-08-17)
 
 ### 🐞 Bug Fixes

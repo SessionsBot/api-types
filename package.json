@@ -1,6 +1,6 @@
 {
   "name": "@sessionsbot/api-types",
-  "version": "2.1.8",
+  "version": "2.1.9",
   "description": "This package hosts shared internal **TypeScript types and interfaces** used across our backend/frontend API services. It helps keep types in sync and up to date across multiple related repositories (like bots, dashboards, and clients).",
   "files": [
     "dist"
