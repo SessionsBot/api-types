@@ -50,6 +50,8 @@ export interface SessionSchedule {
     sessionTitle?:     string;
     /** Date of session. */
     sessionDateDaily?: DailySignupPostTime;
+    /** Days of week schedule runs*/ 
+    daysOfWeek: string[];
     /** Location of session. */
     sessionUrl?:       string;
     /** Roles of session. */
