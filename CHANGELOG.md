@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.2.0](https://github.com/SessionsBot/api-types/compare/v2.1.9...v2.2.0) (2025-09-02)
+
+### ⚡️ Features
+
+* days of week prop ([f83403e](https://github.com/SessionsBot/api-types/commit/f83403e0556f86605fc58386f75ffd0c1352d1f9))
+
+### 🐞 Bug Fixes
+
+* **release-pipeline:** config ([376ff86](https://github.com/SessionsBot/api-types/commit/376ff860083f3685482e6c4908e0f05ef3a1da25))
+* remove optional flags ([2c05fb7](https://github.com/SessionsBot/api-types/commit/2c05fb79f768e1f9ebc6092864b7a691ae0f5188))
+
+### 🧹 Chores
+
+* update deps ([caa33c7](https://github.com/SessionsBot/api-types/commit/caa33c727a996d163d753dd81a2f4889e1ebd451))
+
 ## [2.1.9](https://github.com/SessionsBot/api-types/compare/v2.1.8...v2.1.9) (2025-08-24)
 
 ### 🐞 Bug Fixes
