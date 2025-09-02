@@ -1,19 +1,19 @@
 /** Full Firebase document data saved internally for guild, if any. */
 export interface FirebaseGuildDoc {
     /** Accent color used within guild. */
-    accentColor?:                         string;
+    accentColor:                         string;
     /** Array of guild role ids granted admin permissions. */
-    adminRoleIds?:                        any[];
+    adminRoleIds:                        any[];
     /** All session configurations currently scheduled for guild. */
-    sessionSchedules?:                    SessionSchedule[];
+    sessionSchedules:                    SessionSchedule[];
     /** Current signup/panel post configuration for guild. */
-    sessionSignup?:                       SessionSignup;
+    sessionSignup:                       SessionSignup;
     /** Current timezone configuration for guild. */
-    timeZone?:                            string;
+    timeZone:                            string;
     /** Indication whether guild has successfully completed setup process. */
-    setupCompleted?:                      boolean;
+    setupCompleted:                      boolean;
     /** Key/Value pairs of upcoming sessions ids and their according data. */
-    upcomingSessions?:                    { [key: string]: UpcomingSession };
+    upcomingSessions:                    { [key: string]: UpcomingSession };
 }
 
 /** Session Signup related data saved for Guild.
@@ -25,16 +25,16 @@ export interface FirebaseGuildDoc {
  */
 export interface SessionSignup {
     /** Guild text channel id used for posting new signup panels/thread. */
-    panelChannelId?:      string;
+    panelChannelId:      string;
     /** Dual Purpose:
      * - Most recent signup thread id and 
      * - Most recent signup msg id sent to guild's signup channel
     */
-    signupThreadId?:      string;
+    signupThreadId:      string;
     /** Daily time chosen for signup panels to be posted. */
-    dailySignupPostTime?: DailySignupPostTime;
+    dailySignupPostTime: DailySignupPostTime;
     /** Array of guild role ids to mention on new signup panel post. */
-    mentionRoleIds?:      string[];
+    mentionRoleIds:      string[];
 }
 
 /** A Session Schedule currently used within a guild. 
@@ -47,17 +47,17 @@ export interface SessionSignup {
  */
 export interface SessionSchedule {
     /** Title of session. */
-    sessionTitle?:     string;
+    sessionTitle:     string;
     /** Date of session. */
-    sessionDateDaily?: DailySignupPostTime;
+    sessionDateDaily: DailySignupPostTime;
     /** Days of week schedule runs*/ 
     daysOfWeek: string[];
     /** Location of session. */
-    sessionUrl?:       string;
+    sessionUrl:       string;
     /** Roles of session. */
-    roles?:            SessionRole[];
+    roles:            SessionRole[];
     /** Unique id to identify a particular schedule. */
-    scheduleId?:            string;
+    scheduleId:            string;
 }
 
 /** A Session Schedule currently used within a guild. 
@@ -71,15 +71,15 @@ export interface SessionSchedule {
  */
 export interface UpcomingSession {
     /** Date of session. */
-    date?:             UpcomingSessionDate;
+    date:             UpcomingSessionDate;
     /** Roles of session. */
-    roles?:            SessionRole[];
+    roles:            SessionRole[];
     /** Title of session. */
-    title?:            string;
+    title:            string;
     /** Location of session. */
-    location?:         string;
+    location:         string;
     /** Message Id of *Signup Panel* for session. */
-    signupPanelMsgId?: string;
+    signupPanelMsgId: string;
 }
 
 /** Upcoming Session Date Information
@@ -91,25 +91,25 @@ export interface UpcomingSession {
  */
 export interface UpcomingSessionDate {
     /** Hour time of session. */
-    hours?:            number;
+    hours:            number;
     /** Minute time of session. */
-    minutes?:          number;
+    minutes:          number;
     /** Discord timestamp of session. */
-    discordTimestamp?: string;
+    discordTimestamp: string;
 }
 
 /** Data for `Session Role` */
 export interface SessionRole {
     /** Name of session role. */
-    roleName?:        string;
+    roleName:        string;
     /** Description of session role. */
-    roleDescription?: string;
+    roleDescription: string;
     /** Emoji for session role. */
-    roleEmoji?:       string;
+    roleEmoji:       string;
     /** Capacity of session role. */
-    roleCapacity?:    number;
+    roleCapacity:    number;
     /** Users by id currently assigned to role */
-    users?:    string[];
+    users:    string[];
 }
 
 /** `DailySignupPostTime` Date Information:
@@ -120,7 +120,7 @@ export interface SessionRole {
  */
 export interface DailySignupPostTime {
     /** Hour of day */
-    hours?:   number;
+    hours:   number;
     /** Minute of hour */
-    minutes?: number;
+    minutes: number;
 }
