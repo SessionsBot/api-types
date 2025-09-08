@@ -2,8 +2,6 @@
 export interface FirebaseGuildDoc {
     /** Accent color used within guild. */
     accentColor:                         string;
-    /** Array of guild role ids granted admin permissions. */
-    adminRoleIds:                        any[];
     /** All session configurations currently scheduled for guild. */
     sessionSchedules:                    SessionSchedule[];
     /** Current signup/panel post configuration for guild. */
