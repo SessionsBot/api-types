@@ -9,10 +9,10 @@ export interface APIResponse<responseData> {
     success: boolean;
 
     /** The API response data, if any. */
-    data?: responseData;
+    data?: responseData | undefined;
 
     /** Any API error details, if any. */
-    error?: APIErrorData;
+    error?: APIErrorData | undefined;
 }
 
 /** The Error Response Object for applicable API endpoint. */
@@ -21,7 +21,7 @@ export interface APIErrorData {
     code: number
 
     /** Error details/message, if any */
-    message?: unknown
+    message?: string | unknown
 }
 
 
@@ -59,13 +59,3 @@ export interface GuildData {
 
 
 }
-
-
-/** The full API response object for a "Secure Action" attempt. */
-export type SecureActionResponse = APIResponse<unknown>;
-
-/** Available secure actions to run through the _Secure Action API_. */
-export type SecureActionNames =
-  | 'CREATE_AUTO-SIGNUP-CHANNEL'
-  | 'SETUP-GUILD';
-

@@ -60,7 +60,7 @@ export interface DecodedUserData {
     accentColor: number;
     avatar:      string;
     banner:      null;
-    guilds:      Guilds;
+    guilds:      userGuilds;
     iat:         number;
     exp:         number;
 }
@@ -69,7 +69,7 @@ export interface DecodedUserData {
  *     - `all`: All user's guilds from Discord
  *     - `manageable`: Manageable user's guilds from Discord
 */
-export interface Guilds {
+export interface userGuilds {
     all:        string[];
     manageable: string[];
 }
