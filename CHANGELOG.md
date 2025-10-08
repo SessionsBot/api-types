@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.2.2](https://github.com/SessionsBot/api-types/compare/v2.2.1...v2.2.2) (2025-10-08)
+
+### 🐞 Bug Fixes
+
+* general improvements ([9fba534](https://github.com/SessionsBot/api-types/commit/9fba534575a8099c522b2a99812068c60a956bd0))
+
+### 🧹 Chores
+
+* **deps:** bump the npm-dependencies group across 1 directory with 19 updates ([7f0999c](https://github.com/SessionsBot/api-types/commit/7f0999c92248923d57928dd870a0bfcfe8120652))
+* **deps:** bump the npm-dependencies group with 28 updates ([e9adbf0](https://github.com/SessionsBot/api-types/commit/e9adbf0726486df4e78850651c755e6917b65b36))
+
+### 🧪 Tests
+
+* config change ([faff951](https://github.com/SessionsBot/api-types/commit/faff951a3da618105936cf42f676b72d997f21d3))
+
 ## [2.2.1](https://github.com/SessionsBot/api-types/compare/v2.2.0...v2.2.1) (2025-09-08)
 
 ### 🐞 Bug Fixes
